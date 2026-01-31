@@ -1,4 +1,21 @@
+
 #4. Write a program to enter P, T, R and calculate simple Interest.
+
+# Start
+
+# Input P (Principal amount)
+
+# Input T (Time)
+
+# Input R (Rate of interest)
+
+# Calculate Simple Interest
+# SI = (P × T × R) / 100
+
+# Display the Simple Interest
+
+# Stop
+
 
 p = int(input("Enter the principal amount: "))
 t = int(input("Enter the time: "))
