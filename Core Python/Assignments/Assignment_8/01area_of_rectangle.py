@@ -1,6 +1,7 @@
 #Write a program to calculate area of rectangle
 
-#Type 1
+#type 1 : without passig parameter
+        #   without return value
 def area_of_ractangle():
     length = int(input("Enter the length: "))
     breadth = int(input("Enter the breadth: "))
@@ -11,7 +12,8 @@ def area_of_ractangle():
 
 area_of_ractangle()
 
-#Type 2
+#type 2 : with passig parameter
+        #   without return value
 def area_of_ractangle(length,breadth):
     area = length * breadth
 
@@ -22,7 +24,9 @@ length = int(input("Enter the length: "))
 breadth = int(input("Enter the breadth: "))
 area_of_ractangle(length,breadth)
 
-# Type 3
+#type 3 : without passig parameter
+        #   with return value
+
 def area_of_ractangle():
     length = int(input("Enter the length: "))
     breadth = int(input("Enter the breadth: "))
@@ -33,7 +37,8 @@ def area_of_ractangle():
 res = area_of_ractangle()
 print(f"The area of rectangle is {res}")
 
-# Type 4
+#type 4 : with passig parameter
+        #   with return value
 def area_of_ractangle(length,breadth):
     area = length * breadth
 
