@@ -5,7 +5,7 @@ print(type(li))
 
 # 2. Type of Data = Heterogeneous
 
-li = [10,3.14,'Firstbit Solution']                        
+li = [10,3.14,'Firstbit Solution']
 print(type(li))
 print(li)
 
@@ -19,3 +19,12 @@ print(id(li))
 
 print(type(li))
 print(li)
+
+
+
+
+
+
+#extra  
+x = 3.4888989
+print(f'{x: .4f}')

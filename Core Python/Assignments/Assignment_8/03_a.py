@@ -4,11 +4,11 @@
         #   without return value
 def sum_series():
     n = int(input("Enter the value of n: "))
-    sum=0
+    Sum=0
     for i in range(1,n+1):
-        sum += i
+        Sum += i
 
-    print("Sum of the series is: ",sum)
+    print("Sum of the series is: ",Sum)
 
 sum_series()
 
