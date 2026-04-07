@@ -12,8 +12,8 @@ print(di)
 
 # changable:  ele: mutable , val = mutble , key = immutable
 
-di[6]:342424
-di[5]:6766
+# di[6]:342424
+# di[5]:6766
 
 # keys are unique , values can be duplcate
 
